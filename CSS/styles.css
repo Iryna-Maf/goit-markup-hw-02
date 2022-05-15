@@ -1,0 +1,70 @@
+/*цвет основного текста #757575 */
+/*вторичный цвет текста #212121 */
+/*белый цвет #FFFFFF */
+/*цвет акцента #2196F3 */
+/* светлый цвет фона #E5E5E5 */
+/* темный цвет фона #2F303A */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color:#2196F3;
+    --primary-white-color: #FFFFFF;
+    --dark-background: #2F303A;
+    --secondary-background: #F5F4FA;
+}
+body {
+    background: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
+  /* Site nav */
+.site-nav .link {
+    color: var(--accent-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--title-text-color);
+}
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--title-text-color);
+}
+/* Шапка */
+.head { background: var(--dark-background);}
+.head-title {
+    color: var(--primary-white-color);
+}
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);}
+
+/* Features */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Footer */
+.address .link:hover, 
+.address .link:focus {
+    color: var(--title-text-color);
+}
+
+/* Functions */
+.title {
+    color: var(--title-text-color);
+}
+
+/* Our team */
+.team {
+    background: var(--secondary-background);
+}
+
+/* PORTFOLIO */
