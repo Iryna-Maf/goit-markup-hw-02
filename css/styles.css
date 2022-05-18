@@ -44,9 +44,8 @@ body {
 }
 /* Logo */
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: var(--title-text-color);
-  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -54,7 +53,9 @@ body {
 }
 .logo .web {
   color: var(--accent-color);
+  font-weight: 700;
 }
+
 /* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
@@ -68,6 +69,10 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .contacts-nav .link {
   text-decoration: none;
   color: var(--primary-text-color);
