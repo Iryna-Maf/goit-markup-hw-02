@@ -48,7 +48,7 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   text-decoration: none;
 }
 .logo .web {
@@ -216,4 +216,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
+}
+.project-examples-li {
+  text-decoration: none;
 }
